@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:text="Utilizador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textview"/>
+    <Button
+            android:text="Criar uma comentario num livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/criarComentario"/>
+    <Button
+            android:text="Alterar comentario de um livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/alterarComentario"/>
+    <Button
+            android:text="Listar todos os comentarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/listarComentarios"/>
+    <Button
+            android:text="Quantidade de opinioes positivas num livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/quantidadePositivos"/>
+    <Button
+            android:text="Listar a opiniao num dado livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/listarOpiniao"/>
+    <Button
+            android:text="Listar livros retirados pelo utilizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/listarLivrosRetirados"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
